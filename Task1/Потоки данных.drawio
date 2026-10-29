@@ -32,7 +32,7 @@
                     <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="e2" value="Записи и контакты&#10;Чтение файлов" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
-                    <mxGeometry relative="1" as="geometry">
+                    <mxGeometry relative="1" as="geometry" x="-0.5">
                         <Array as="points">
                             <mxPoint x="1400" y="500" />
                             <mxPoint x="450" y="500" />
@@ -82,7 +82,7 @@
                     <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="e2" value="Записи и контакты&#10;Выборка; аудит" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
-                    <mxGeometry relative="1" as="geometry">
+                    <mxGeometry relative="1" as="geometry" x="-0.5">
                         <Array as="points">
                             <mxPoint x="1400" y="500" />
                             <mxPoint x="450" y="500" />
@@ -132,7 +132,7 @@
                     <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="e2" value="История и заключения&#10;Чтение файлов" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
-                    <mxGeometry relative="1" as="geometry">
+                    <mxGeometry relative="1" as="geometry" x="-0.5">
                         <Array as="points">
                             <mxPoint x="1400" y="500" />
                             <mxPoint x="450" y="500" />
@@ -182,7 +182,7 @@
                     <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="e2" value="История и заключения&#10;Выборка; аудит" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
-                    <mxGeometry relative="1" as="geometry">
+                    <mxGeometry relative="1" as="geometry" x="-0.5">
                         <Array as="points">
                             <mxPoint x="1400" y="500" />
                             <mxPoint x="450" y="500" />
@@ -232,7 +232,7 @@
                     <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="e2" value="Заказ, patient_id,&#10;результат&#10;Чтение файлов" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
-                    <mxGeometry relative="1" as="geometry">
+                    <mxGeometry relative="1" as="geometry" x="-0.5">
                         <Array as="points">
                             <mxPoint x="1400" y="500" />
                             <mxPoint x="450" y="500" />
@@ -282,7 +282,7 @@
                     <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="e2" value="Заказ, patient_id,&#10;результат&#10;Выборка; аудит" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
-                    <mxGeometry relative="1" as="geometry">
+                    <mxGeometry relative="1" as="geometry" x="-0.5">
                         <Array as="points">
                             <mxPoint x="1400" y="500" />
                             <mxPoint x="450" y="500" />
@@ -332,7 +332,7 @@
                     <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="e2" value="Платёж и чек&#10;Чтение файлов" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
-                    <mxGeometry relative="1" as="geometry">
+                    <mxGeometry relative="1" as="geometry" x="-0.5">
                         <Array as="points">
                             <mxPoint x="1400" y="500" />
                             <mxPoint x="450" y="500" />
@@ -382,7 +382,7 @@
                     <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="e2" value="Платёж и чек&#10;Выборка; аудит" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
-                    <mxGeometry relative="1" as="geometry">
+                    <mxGeometry relative="1" as="geometry" x="-0.5">
                         <Array as="points">
                             <mxPoint x="1400" y="500" />
                             <mxPoint x="450" y="500" />
@@ -432,7 +432,7 @@
                     <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="e2" value="Финансовые и&#10;кадровые записи&#10;Чтение файлов" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
-                    <mxGeometry relative="1" as="geometry">
+                    <mxGeometry relative="1" as="geometry" x="-0.5">
                         <Array as="points">
                             <mxPoint x="1400" y="500" />
                             <mxPoint x="450" y="500" />
@@ -482,7 +482,7 @@
                     <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="e2" value="Финансовые и&#10;кадровые записи&#10;Выборка; аудит" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
-                    <mxGeometry relative="1" as="geometry">
+                    <mxGeometry relative="1" as="geometry" x="-0.5">
                         <Array as="points">
                             <mxPoint x="1400" y="500" />
                             <mxPoint x="450" y="500" />
@@ -532,7 +532,7 @@
                     <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="e2" value="Остатки и&#10;движение ТМЦ&#10;Чтение файлов" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
-                    <mxGeometry relative="1" as="geometry">
+                    <mxGeometry relative="1" as="geometry" x="-0.5">
                         <Array as="points">
                             <mxPoint x="1400" y="500" />
                             <mxPoint x="450" y="500" />
@@ -582,7 +582,7 @@
                     <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="e2" value="Остатки и&#10;движение ТМЦ&#10;Выборка; аудит" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
-                    <mxGeometry relative="1" as="geometry">
+                    <mxGeometry relative="1" as="geometry" x="-0.5">
                         <Array as="points">
                             <mxPoint x="1400" y="500" />
                             <mxPoint x="450" y="500" />
