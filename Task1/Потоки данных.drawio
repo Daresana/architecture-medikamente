@@ -31,17 +31,13 @@
                 <mxCell id="e1" value="Записи и контакты&#10;Ручная запись" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="process" target="store">
                     <mxGeometry relative="1" as="geometry" />
                 </mxCell>
-                <mxCell id="e2" value="Записи и контакты&#10;Чтение файлов" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
-                    <mxGeometry relative="1" as="geometry" x="-0.5">
+                <mxCell id="e2" value="Записи и контакты&#10;Чтение файлов" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
+                    <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1400" y="500" />
-                            <mxPoint x="450" y="500" />
-                            <mxPoint x="450" y="670" />
+                            <mxPoint x="745" y="500" />
                         </Array>
                     </mxGeometry>
-                </mxCell>
-                <mxCell id="e3" value="ID операции / запроса" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="process" target="output">
-                    <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="e4" value="Время приёма; контакт&#10;только ответственному" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="output" target="recipient">
                     <mxGeometry relative="1" as="geometry" />
@@ -81,17 +77,13 @@
                 <mxCell id="e1" value="Записи и контакты&#10;Проверка и тегирование" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="process" target="store">
                     <mxGeometry relative="1" as="geometry" />
                 </mxCell>
-                <mxCell id="e2" value="Записи и контакты&#10;Выборка; аудит" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
-                    <mxGeometry relative="1" as="geometry" x="-0.5">
+                <mxCell id="e2" value="Записи и контакты&#10;Выборка; аудит" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
+                    <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1400" y="500" />
-                            <mxPoint x="450" y="500" />
-                            <mxPoint x="450" y="670" />
+                            <mxPoint x="745" y="500" />
                         </Array>
                     </mxGeometry>
-                </mxCell>
-                <mxCell id="e3" value="ID операции / запроса&#10;Роль, цель, объект" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="process" target="output">
-                    <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="e4" value="Время приёма; контакт&#10;только ответственному&#10;Защищённый канал; аудит" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="output" target="recipient">
                     <mxGeometry relative="1" as="geometry" />
@@ -131,17 +123,13 @@
                 <mxCell id="e1" value="История и заключения&#10;Ручная запись" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="process" target="store">
                     <mxGeometry relative="1" as="geometry" />
                 </mxCell>
-                <mxCell id="e2" value="История и заключения&#10;Чтение файлов" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
-                    <mxGeometry relative="1" as="geometry" x="-0.5">
+                <mxCell id="e2" value="История и заключения&#10;Чтение файлов" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
+                    <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1400" y="500" />
-                            <mxPoint x="450" y="500" />
-                            <mxPoint x="450" y="670" />
+                            <mxPoint x="745" y="500" />
                         </Array>
                     </mxGeometry>
-                </mxCell>
-                <mxCell id="e3" value="ID операции / запроса" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="process" target="output">
-                    <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="e4" value="Необходимый фрагмент&#10;медицинской карты" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="output" target="recipient">
                     <mxGeometry relative="1" as="geometry" />
@@ -181,17 +169,13 @@
                 <mxCell id="e1" value="История и заключения&#10;Проверка и тегирование" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="process" target="store">
                     <mxGeometry relative="1" as="geometry" />
                 </mxCell>
-                <mxCell id="e2" value="История и заключения&#10;Выборка; аудит" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
-                    <mxGeometry relative="1" as="geometry" x="-0.5">
+                <mxCell id="e2" value="История и заключения&#10;Выборка; аудит" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
+                    <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1400" y="500" />
-                            <mxPoint x="450" y="500" />
-                            <mxPoint x="450" y="670" />
+                            <mxPoint x="745" y="500" />
                         </Array>
                     </mxGeometry>
-                </mxCell>
-                <mxCell id="e3" value="ID операции / запроса&#10;Роль, цель, объект" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="process" target="output">
-                    <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="e4" value="Необходимый фрагмент&#10;медицинской карты&#10;Защищённый канал; аудит" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="output" target="recipient">
                     <mxGeometry relative="1" as="geometry" />
@@ -231,17 +215,13 @@
                 <mxCell id="e1" value="Заказ, patient_id,&#10;результат&#10;Ручная запись" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="process" target="store">
                     <mxGeometry relative="1" as="geometry" />
                 </mxCell>
-                <mxCell id="e2" value="Заказ, patient_id,&#10;результат&#10;Чтение файлов" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
-                    <mxGeometry relative="1" as="geometry" x="-0.5">
+                <mxCell id="e2" value="Заказ, patient_id,&#10;результат&#10;Чтение файлов" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
+                    <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1400" y="500" />
-                            <mxPoint x="450" y="500" />
-                            <mxPoint x="450" y="670" />
+                            <mxPoint x="745" y="500" />
                         </Array>
                     </mxGeometry>
-                </mxCell>
-                <mxCell id="e3" value="ID операции / запроса" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="process" target="output">
-                    <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="e4" value="Результат по своему&#10;заказу / лечебной связи" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="output" target="recipient">
                     <mxGeometry relative="1" as="geometry" />
@@ -281,17 +261,13 @@
                 <mxCell id="e1" value="Заказ, patient_id,&#10;результат&#10;Проверка и тегирование" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="process" target="store">
                     <mxGeometry relative="1" as="geometry" />
                 </mxCell>
-                <mxCell id="e2" value="Заказ, patient_id,&#10;результат&#10;Выборка; аудит" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
-                    <mxGeometry relative="1" as="geometry" x="-0.5">
+                <mxCell id="e2" value="Заказ, patient_id,&#10;результат&#10;Выборка; аудит" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
+                    <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1400" y="500" />
-                            <mxPoint x="450" y="500" />
-                            <mxPoint x="450" y="670" />
+                            <mxPoint x="745" y="500" />
                         </Array>
                     </mxGeometry>
-                </mxCell>
-                <mxCell id="e3" value="ID операции / запроса&#10;Роль, цель, объект" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="process" target="output">
-                    <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="e4" value="Результат по своему&#10;заказу / лечебной связи&#10;Защищённый канал; аудит" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="output" target="recipient">
                     <mxGeometry relative="1" as="geometry" />
@@ -331,17 +307,13 @@
                 <mxCell id="e1" value="Платёж и чек&#10;Ручная запись" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="process" target="store">
                     <mxGeometry relative="1" as="geometry" />
                 </mxCell>
-                <mxCell id="e2" value="Платёж и чек&#10;Чтение файлов" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
-                    <mxGeometry relative="1" as="geometry" x="-0.5">
+                <mxCell id="e2" value="Платёж и чек&#10;Чтение файлов" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
+                    <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1400" y="500" />
-                            <mxPoint x="450" y="500" />
-                            <mxPoint x="450" y="670" />
+                            <mxPoint x="745" y="500" />
                         </Array>
                     </mxGeometry>
-                </mxCell>
-                <mxCell id="e3" value="ID операции / запроса" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="process" target="output">
-                    <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="e4" value="Сумма, ID платежа&#10;и статус" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="output" target="recipient">
                     <mxGeometry relative="1" as="geometry" />
@@ -381,17 +353,13 @@
                 <mxCell id="e1" value="Платёж и чек&#10;Проверка и тегирование" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="process" target="store">
                     <mxGeometry relative="1" as="geometry" />
                 </mxCell>
-                <mxCell id="e2" value="Платёж и чек&#10;Выборка; аудит" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
-                    <mxGeometry relative="1" as="geometry" x="-0.5">
+                <mxCell id="e2" value="Платёж и чек&#10;Выборка; аудит" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
+                    <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1400" y="500" />
-                            <mxPoint x="450" y="500" />
-                            <mxPoint x="450" y="670" />
+                            <mxPoint x="745" y="500" />
                         </Array>
                     </mxGeometry>
-                </mxCell>
-                <mxCell id="e3" value="ID операции / запроса&#10;Роль, цель, объект" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="process" target="output">
-                    <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="e4" value="Сумма, ID платежа&#10;и статус&#10;Защищённый канал; аудит" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="output" target="recipient">
                     <mxGeometry relative="1" as="geometry" />
@@ -431,17 +399,13 @@
                 <mxCell id="e1" value="Финансовые и&#10;кадровые записи&#10;Ручная запись" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="process" target="store">
                     <mxGeometry relative="1" as="geometry" />
                 </mxCell>
-                <mxCell id="e2" value="Финансовые и&#10;кадровые записи&#10;Чтение файлов" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
-                    <mxGeometry relative="1" as="geometry" x="-0.5">
+                <mxCell id="e2" value="Финансовые и&#10;кадровые записи&#10;Чтение файлов" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
+                    <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1400" y="500" />
-                            <mxPoint x="450" y="500" />
-                            <mxPoint x="450" y="670" />
+                            <mxPoint x="745" y="500" />
                         </Array>
                     </mxGeometry>
-                </mxCell>
-                <mxCell id="e3" value="ID операции / запроса" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="process" target="output">
-                    <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="e4" value="Документ по цели&#10;учёта / отчётности" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="output" target="recipient">
                     <mxGeometry relative="1" as="geometry" />
@@ -481,17 +445,13 @@
                 <mxCell id="e1" value="Финансовые и&#10;кадровые записи&#10;Проверка и тегирование" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="process" target="store">
                     <mxGeometry relative="1" as="geometry" />
                 </mxCell>
-                <mxCell id="e2" value="Финансовые и&#10;кадровые записи&#10;Выборка; аудит" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
-                    <mxGeometry relative="1" as="geometry" x="-0.5">
+                <mxCell id="e2" value="Финансовые и&#10;кадровые записи&#10;Выборка; аудит" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
+                    <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1400" y="500" />
-                            <mxPoint x="450" y="500" />
-                            <mxPoint x="450" y="670" />
+                            <mxPoint x="745" y="500" />
                         </Array>
                     </mxGeometry>
-                </mxCell>
-                <mxCell id="e3" value="ID операции / запроса&#10;Роль, цель, объект" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="process" target="output">
-                    <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="e4" value="Документ по цели&#10;учёта / отчётности&#10;Защищённый канал; аудит" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="output" target="recipient">
                     <mxGeometry relative="1" as="geometry" />
@@ -531,17 +491,13 @@
                 <mxCell id="e1" value="Остатки и&#10;движение ТМЦ&#10;Ручная запись" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="process" target="store">
                     <mxGeometry relative="1" as="geometry" />
                 </mxCell>
-                <mxCell id="e2" value="Остатки и&#10;движение ТМЦ&#10;Чтение файлов" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
-                    <mxGeometry relative="1" as="geometry" x="-0.5">
+                <mxCell id="e2" value="Остатки и&#10;движение ТМЦ&#10;Чтение файлов" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
+                    <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1400" y="500" />
-                            <mxPoint x="450" y="500" />
-                            <mxPoint x="450" y="670" />
+                            <mxPoint x="745" y="500" />
                         </Array>
                     </mxGeometry>
-                </mxCell>
-                <mxCell id="e3" value="ID операции / запроса" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="process" target="output">
-                    <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="e4" value="Учётные суммы и&#10;документы поставок" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="output" target="recipient">
                     <mxGeometry relative="1" as="geometry" />
@@ -581,17 +537,13 @@
                 <mxCell id="e1" value="Остатки и&#10;движение ТМЦ&#10;Проверка и тегирование" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="process" target="store">
                     <mxGeometry relative="1" as="geometry" />
                 </mxCell>
-                <mxCell id="e2" value="Остатки и&#10;движение ТМЦ&#10;Выборка; аудит" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
-                    <mxGeometry relative="1" as="geometry" x="-0.5">
+                <mxCell id="e2" value="Остатки и&#10;движение ТМЦ&#10;Выборка; аудит" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="store" target="output">
+                    <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1400" y="500" />
-                            <mxPoint x="450" y="500" />
-                            <mxPoint x="450" y="670" />
+                            <mxPoint x="745" y="500" />
                         </Array>
                     </mxGeometry>
-                </mxCell>
-                <mxCell id="e3" value="ID операции / запроса&#10;Роль, цель, объект" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="process" target="output">
-                    <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="e4" value="Учётные суммы и&#10;документы поставок&#10;Защищённый канал; аудит" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="output" target="recipient">
                     <mxGeometry relative="1" as="geometry" />
