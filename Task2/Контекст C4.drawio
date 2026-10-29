@@ -1,0 +1,131 @@
+<mxfile host="app.diagrams.net">
+    <diagram name="C4 — контекст MVP">
+        <mxGraphModel page="1" pageScale="1" pageWidth="1800" pageHeight="1200" grid="1" gridSize="10">
+            <root>
+                <mxCell id="0" />
+                <mxCell id="1" parent="0" />
+                <mxCell id="title" value="C4 / System Context — Медикаменте&#10;MVP записи и границы развития" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;shape=rectangle;strokeColor=none;fillColor=none;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="20" width="1600" height="100" as="geometry" />
+                </mxCell>
+                <mxCell id="patient" value="Пациент&#10;[Person]&#10;Записывается, видит свои записи" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;rounded=0;fillColor=#f5eee1;strokeColor=#786448;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="200" width="300" height="140" as="geometry" />
+                </mxCell>
+                <mxCell id="staff" value="Ресепшен и врач&#10;[Person]&#10;Работают по роли и назначению" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;rounded=0;fillColor=#f5eee1;strokeColor=#786448;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="570" width="300" height="140" as="geometry" />
+                </mxCell>
+                <mxCell id="system" value="Медикаменте: система записи&#10;[Software System]&#10;Расписание, порталы, минимальные&#10;контакты, серверные права,&#10;каталог, аудит и политики" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;rounded=1;arcSize=8;fillColor=#eaf0f5;strokeColor=#456078;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="360" width="470" height="220" as="geometry" />
+                </mxCell>
+                <mxCell id="iam" value="AD + IAM&#10;[External System]&#10;Сотрудники / пациентские аккаунты" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;rounded=1;arcSize=8;fillColor=#eaf0f5;strokeColor=#456078;" vertex="1" parent="1">
+                    <mxGeometry x="1380" y="140" width="350" height="150" as="geometry" />
+                </mxCell>
+                <mxCell id="legacy" value="1С и файловый архив&#10;[External System]&#10;Учёт, документы и медкарты" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;rounded=1;arcSize=8;fillColor=#eaf0f5;strokeColor=#456078;" vertex="1" parent="1">
+                    <mxGeometry x="1380" y="420" width="350" height="150" as="geometry" />
+                </mxCell>
+                <mxCell id="notify" value="Каналы уведомлений&#10;[External System]&#10;Доставка напоминания за сутки" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;rounded=1;arcSize=8;fillColor=#eaf0f5;strokeColor=#456078;" vertex="1" parent="1">
+                    <mxGeometry x="1380" y="740" width="350" height="150" as="geometry" />
+                </mxCell>
+                <mxCell id="analyst" value="Аналитик&#10;[Person]&#10;Только разрешённая витрина" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;rounded=0;fillColor=#f5eee1;strokeColor=#786448;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="940" width="300" height="140" as="geometry" />
+                </mxCell>
+                <mxCell id="analytics" value="Защищённая аналитика&#10;[Software System]&#10;Минимальная витрина в MVP;&#10;озеро/BI/ML поэтапно" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;rounded=1;arcSize=8;fillColor=#eaf0f5;strokeColor=#456078;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="900" width="470" height="180" as="geometry" />
+                </mxCell>
+                <mxCell id="future" value="Далее, до года: мобильное приложение, CRM, лабораторный API и платёжный шлюз.&#10;Это развитие контекста, не условие готовности двухмесячного MVP. Хранение и обработка — в инфраструктуре РФ." style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;shape=rectangle;strokeColor=none;fillColor=none;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="1100" width="1670" height="80" as="geometry" />
+                </mxCell>
+                <mxCell id="e0" value="HTTPS: своя запись&#10;и минимальные контакты" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;" edge="1" parent="1" source="patient" target="system">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="e1" value="HTTPS: расписание&#10;по правам и филиалу" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;" edge="1" parent="1" source="staff" target="system">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="e2" value="Аутентификация&#10;и роли" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;" edge="1" parent="1" source="system" target="iam">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="e3" value="Адаптеры: ID и статус;&#10;медкарты не копируются" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;" edge="1" parent="1" source="system" target="legacy">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="e4" value="Контакт и время приёма;&#10;без диагноза" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;" edge="1" parent="1" source="system" target="notify">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="e5" value="Одобренная выгрузка;&#10;теги, lineage, токенизация" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;" edge="1" parent="1" source="system" target="analytics">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="e6" value="Агрегаты по цели;&#10;без raw и таблицы токенов" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;" edge="1" parent="1" source="analyst" target="analytics">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="Защитные блоки и аналитические зоны">
+        <mxGraphModel page="1" pageScale="1" pageWidth="1800" pageHeight="1200" grid="1" gridSize="10">
+            <root>
+                <mxCell id="0" />
+                <mxCell id="1" parent="0" />
+                <mxCell id="title" value="Детализация целевого решения&#10;Домены и применение политик" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;shape=rectangle;strokeColor=none;fillColor=none;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="20" width="1640" height="100" as="geometry" />
+                </mxCell>
+                <mxCell id="api" value="Порталы / API&#10;Объектная авторизация&#10;Роль + пациент + цель" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;rounded=1;arcSize=8;fillColor=#eaf0f5;strokeColor=#456078;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="190" width="350" height="150" as="geometry" />
+                </mxCell>
+                <mxCell id="operational" value="Домены PostgreSQL&#10;Контакты / расписание&#10;Медицинские / финансы отдельно" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;shape=cylinder3;boundedLbl=1;size=20;fillColor=#e8f0e8;strokeColor=#47664d;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="190" width="400" height="150" as="geometry" />
+                </mxCell>
+                <mxCell id="catalog" value="Каталог и политики&#10;Теги, владельцы, сроки&#10;Lineage и версии правил" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;shape=cylinder3;boundedLbl=1;size=20;fillColor=#e8f0e8;strokeColor=#47664d;" vertex="1" parent="1">
+                    <mxGeometry x="1320" y="190" width="380" height="150" as="geometry" />
+                </mxCell>
+                <mxCell id="keys" value="KMS / защита носителей&#10;Ключи отдельно от данных&#10;Ротация и восстановление" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;rounded=1;arcSize=8;fillColor=#eaf0f5;strokeColor=#456078;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="540" width="350" height="150" as="geometry" />
+                </mxCell>
+                <mxCell id="audit" value="Аудит / мониторинг&#10;Событие, объект, цель&#10;Без PHI в журнале" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;rounded=1;arcSize=8;fillColor=#eaf0f5;strokeColor=#456078;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="540" width="400" height="150" as="geometry" />
+                </mxCell>
+                <mxCell id="raw" value="Закрытый raw&#10;Карантин Excel и сканов&#10;PII/PHI; доступ ETL" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;shape=cylinder3;boundedLbl=1;size=20;fillColor=#e8f0e8;strokeColor=#47664d;" vertex="1" parent="1">
+                    <mxGeometry x="1320" y="540" width="380" height="150" as="geometry" />
+                </mxCell>
+                <mxCell id="prep" value="Подготовленный слой&#10;Проверка, токенизация&#10;Таблица соответствий отдельно" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;shape=cylinder3;boundedLbl=1;size=20;fillColor=#e8f0e8;strokeColor=#47664d;" vertex="1" parent="1">
+                    <mxGeometry x="1320" y="940" width="380" height="160" as="geometry" />
+                </mxCell>
+                <mxCell id="mart" value="Агрегированная витрина&#10;Разрешённые признаки&#10;Проверка малых групп" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;shape=cylinder3;boundedLbl=1;size=20;fillColor=#e8f0e8;strokeColor=#47664d;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="940" width="400" height="160" as="geometry" />
+                </mxCell>
+                <mxCell id="consumer" value="BI / одобренный ML&#10;Отдельная цель и доступ&#10;Нет прямого чтения raw" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;rounded=1;arcSize=8;fillColor=#eaf0f5;strokeColor=#456078;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="940" width="350" height="160" as="geometry" />
+                </mxCell>
+                <mxCell id="e0" value="Проверенные операции&#10;TLS + роли/RLS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;" edge="1" parent="1" source="api" target="operational">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="e1" value="Версия политики&#10;и классификация" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;" edge="1" parent="1" source="catalog" target="api">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1510" y="130" />
+                            <mxPoint x="245" y="130" />
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e2" value="Метаданные;&#10;без полных значений" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;" edge="1" parent="1" source="operational" target="catalog">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="e3" value="Аудит доступа" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;" edge="1" parent="1" source="api" target="audit">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="e4" value="Криптооперации&#10;и доступ к ключам" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;" edge="1" parent="1" source="keys" target="operational">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="e5" value="Одобренная выгрузка&#10;TLS; метки; ID запуска" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;" edge="1" parent="1" source="operational" target="raw">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="e6" value="ETL и lineage&#10;Минимизация / токенизация" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;" edge="1" parent="1" source="raw" target="prep">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="e7" value="Разрешённые агрегаты&#10;и проверка раскрытия" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;" edge="1" parent="1" source="prep" target="mart">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="e8" value="Выдача по цели&#10;TLS и аудит" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;" edge="1" parent="1" source="mart" target="consumer">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

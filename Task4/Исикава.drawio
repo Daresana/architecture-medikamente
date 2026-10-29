@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net">
+    <diagram name="Исикава — риски миграции">
+        <mxGraphModel page="1" pageScale="1" pageWidth="2000" pageHeight="1300" grid="1" gridSize="10">
+            <root>
+                <mxCell id="0" />
+                <mxCell id="1" parent="0" />
+                <mxCell id="title" value="Потенциальные причины деградации при миграции и росте ×5&#10;Гипотезы требуют замеров; приоритеты и проверки — в отчёте" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;shape=rectangle;strokeColor=none;fillColor=none;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="20" width="1840" height="100" as="geometry" />
+                </mxCell>
+                <mxCell id="spine1" value="" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;shape=rectangle;strokeColor=none;fillColor=none;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="640" width="10" height="10" as="geometry" />
+                </mxCell>
+                <mxCell id="effect" value="Задержки, ошибки записи&#10;и риск потери данных&#10;при переходе на MVP" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;rounded=1;arcSize=8;fillColor=#eaf0f5;strokeColor=#456078;" vertex="1" parent="1">
+                    <mxGeometry x="1590" y="570" width="350" height="160" as="geometry" />
+                </mxCell>
+                <mxCell id="c0" value="Инфраструктура&#10;&#10;Один сервер и диск&#10;Конкуренция импорта и OLTP&#10;Отказ офиса / питания" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;rounded=1;arcSize=8;fillColor=#eaf0f5;strokeColor=#456078;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="150" width="400" height="220" as="geometry" />
+                </mxCell>
+                <mxCell id="a0" value="" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;shape=rectangle;strokeColor=none;fillColor=none;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="640" width="8" height="8" as="geometry" />
+                </mxCell>
+                <mxCell id="c1" value="Данные&#10;&#10;Дубли и разные форматы&#10;Неясная идентичность&#10;Ошибки привязки анализов" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;rounded=1;arcSize=8;fillColor=#eaf0f5;strokeColor=#456078;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="150" width="400" height="220" as="geometry" />
+                </mxCell>
+                <mxCell id="a1" value="" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;shape=rectangle;strokeColor=none;fillColor=none;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="800" y="640" width="8" height="8" as="geometry" />
+                </mxCell>
+                <mxCell id="c2" value="Интеграция и ПО&#10;&#10;Ограничения 1С / OLE&#10;Повтор операции / двойной слот&#10;Тайм-ауты и несовместимость" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;rounded=1;arcSize=8;fillColor=#eaf0f5;strokeColor=#456078;" vertex="1" parent="1">
+                    <mxGeometry x="1100" y="150" width="400" height="220" as="geometry" />
+                </mxCell>
+                <mxCell id="a2" value="" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;shape=rectangle;strokeColor=none;fillColor=none;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="1250" y="640" width="8" height="8" as="geometry" />
+                </mxCell>
+                <mxCell id="c3" value="Люди&#10;&#10;Три IT-специалиста&#10;Новые компетенции&#10;Ошибки ручной работы" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;rounded=1;arcSize=8;fillColor=#eaf0f5;strokeColor=#456078;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="930" width="400" height="220" as="geometry" />
+                </mxCell>
+                <mxCell id="a3" value="" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;shape=rectangle;strokeColor=none;fillColor=none;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="640" width="8" height="8" as="geometry" />
+                </mxCell>
+                <mxCell id="c4" value="Процессы&#10;&#10;Два владельца записи&#10;Нет baseline и критериев&#10;Не проверен откат" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;rounded=1;arcSize=8;fillColor=#eaf0f5;strokeColor=#456078;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="930" width="400" height="220" as="geometry" />
+                </mxCell>
+                <mxCell id="a4" value="" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;shape=rectangle;strokeColor=none;fillColor=none;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="800" y="640" width="8" height="8" as="geometry" />
+                </mxCell>
+                <mxCell id="c5" value="Защита и наблюдаемость&#10;&#10;Нет аудита по условию&#10;Нагрузка защитных проверок&#10;Копии и ключи не проверены" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;rounded=1;arcSize=8;fillColor=#eaf0f5;strokeColor=#456078;" vertex="1" parent="1">
+                    <mxGeometry x="1100" y="930" width="400" height="220" as="geometry" />
+                </mxCell>
+                <mxCell id="a5" value="" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;shape=rectangle;strokeColor=none;fillColor=none;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="1250" y="640" width="8" height="8" as="geometry" />
+                </mxCell>
+                <mxCell id="e0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;" edge="1" parent="1" source="spine1" target="effect">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;" edge="1" parent="1" source="c0" target="a0">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="e2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;" edge="1" parent="1" source="c1" target="a1">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="e3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;" edge="1" parent="1" source="c2" target="a2">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="e4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;" edge="1" parent="1" source="c3" target="a3">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="e5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;" edge="1" parent="1" source="c4" target="a4">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="e6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;fontSize=17;labelBackgroundColor=#ffffff;spacing=5;" edge="1" parent="1" source="c5" target="a5">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
