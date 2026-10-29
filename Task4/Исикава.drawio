@@ -37,13 +37,13 @@
                 <mxCell id="a3" value="" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;shape=rectangle;strokeColor=none;fillColor=none;align=left;" vertex="1" parent="1">
                     <mxGeometry x="350" y="640" width="8" height="8" as="geometry" />
                 </mxCell>
-                <mxCell id="c4" value="Процессы&#10;&#10;Два владельца записи&#10;Нет baseline и критериев&#10;Не проверен откат" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;rounded=1;arcSize=8;fillColor=#eaf0f5;strokeColor=#456078;" vertex="1" parent="1">
+                <mxCell id="c4" value="Процессы&#10;&#10;Риск двух владельцев записи&#10;Нет исходных замеров&#10;Откат требует проверки" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;rounded=1;arcSize=8;fillColor=#eaf0f5;strokeColor=#456078;" vertex="1" parent="1">
                     <mxGeometry x="600" y="930" width="400" height="220" as="geometry" />
                 </mxCell>
                 <mxCell id="a4" value="" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;shape=rectangle;strokeColor=none;fillColor=none;align=left;" vertex="1" parent="1">
                     <mxGeometry x="800" y="640" width="8" height="8" as="geometry" />
                 </mxCell>
-                <mxCell id="c5" value="Защита и наблюдаемость&#10;&#10;Нет аудита по условию&#10;Нагрузка защитных проверок&#10;Копии и ключи не проверены" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;rounded=1;arcSize=8;fillColor=#eaf0f5;strokeColor=#456078;" vertex="1" parent="1">
+                <mxCell id="c5" value="Защита и наблюдаемость&#10;&#10;Нет аудита по условию&#10;Нагрузка защитных проверок&#10;Восстановление ключей не описано" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;rounded=1;arcSize=8;fillColor=#eaf0f5;strokeColor=#456078;" vertex="1" parent="1">
                     <mxGeometry x="1100" y="930" width="400" height="220" as="geometry" />
                 </mxCell>
                 <mxCell id="a5" value="" style="whiteSpace=wrap;html=0;fontSize=20;fontFamily=Arial;align=center;verticalAlign=middle;spacing=12;strokeWidth=2;shape=rectangle;strokeColor=none;fillColor=none;align=left;" vertex="1" parent="1">
